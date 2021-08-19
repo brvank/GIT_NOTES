@@ -1,0 +1,61 @@
+// setting the user
+
+	git config --gloabal user.name "your name"
+	git config --gloabal user.email "your email id"
+
+...............................
+
+//to check git tracking 
+
+	git status
+
+//start tracking 
+
+	git init
+
+//start tracking the files
+
+	git add <filename with extension>
+	git add --all  ---> tracking all files at same time
+
+//to commit
+
+	git commit
+	git commit -m "commited message"
+
+//return to previous commit
+
+	git checkout -f
+
+//check all commits
+
+	git log
+	git log -p ---> press q to release
+	git log --oneline
+
+//checking out previous commits
+
+	git checkout <SHA KEY>
+	git checkout master ---> returning to the master
+
+//creating a new file
+
+	touch <filename>
+
+//to ignore a file use the name is .gitignore
+
+..........................
+
+//uploading files to github
+//shift + insert_key ---> paste
+
+	git remote add origin "<url of github repo>"
+	git push -u origin master
+
+//get all the remote repo urls
+
+	git remote
+	git remote -v -->> details of all the urls
+
+//clone a repository
+	git clone "<url of github repo>"
