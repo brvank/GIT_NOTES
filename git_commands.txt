@@ -13,6 +13,10 @@
 
 	git init
 
+//close git tracking
+
+	rm -rf .git
+
 //start tracking the files
 
 	git add <filename with extension>
@@ -42,7 +46,12 @@
 
 	touch <filename>
 
-//to ignore a file use the name is .gitignore
+//to ignore a file for git to track
+//create a new file named as '.gitignore'
+	
+	touch .gitignore
+//then add the name of the file, to be ignored, in the .gitignore file
+//example:- to ignore all png(s) images then write ---> *.png in the .gitignore file
 
 ..........................
 
