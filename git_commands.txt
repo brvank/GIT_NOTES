@@ -27,6 +27,10 @@
 	git commit
 	git commit -m "commited message"
 
+//to change the commited message
+
+	git commit --amend -m "new commit message"
+
 //return to previous commit
 
 	git checkout -f
