@@ -1,0 +1,11 @@
+devlopment commit 
+  git commit -m "dev - work done"
+
+bug fix commit
+  git commit -m "fix - bug fixed"
+
+configurations changed commit
+  git commit -m "config - config changes"
+  
+tech improvement commit
+  git commit -m "tech - tech improved"
